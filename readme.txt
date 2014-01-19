@@ -60,7 +60,25 @@ With this plugin you can easily create and monitor Landing Pages for your wordpr
 
 == Frequently Asked Questions ==
 
-= I have a question, what do I do? =
+= Do I need to have a Wishpond account set up already? =
+
+No. We automatically create a Wishpond account for you.
+
+= Can I try out Social Campaigns free? =
+
+Yes, you can try Social Campaigns completely free for the first 14 days.
+
+= How much does it cost to run a landing page? =
+
+* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
+* You can run unlimited campaigns for FREE for the first 14 days
+* You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
+
+= What kind of support do I get? =
+
+Wishpond campaigns are extremely easy and fast to set up. If you ever need assistance, we are available to you through live chat, email, and phone support.
+
+= I have another question, what do I do? =
 
 Don't hesitate to contact us! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
