@@ -21,7 +21,7 @@ Pricing starts at $19/month, and a 14-day free trial is available so you can tes
 
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews") 
 
-Some of our experienced customers boast **over a few thousand leads** for this price, which is amazing value for your money.
+Some of our experienced customers boast **over a few thousand leads** for this price, which is unparalleled value for your money.
 
 **Create your Landing Page in Minutes.**
 
