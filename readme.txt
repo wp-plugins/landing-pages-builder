@@ -1,6 +1,6 @@
 === Landing Pages Builder ===
 Contributors: atajsekandar, cosminatanasiu 
-Tags: easy, easily, create, creator, landing pages creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, page, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress
+Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, page, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress
 
 Donate Link: N/A
 Requires at least: 3.0.0
