@@ -19,9 +19,9 @@ With this plugin you can easily create and monitor Landing Pages for your wordpr
 
 Pricing starts at $19/month, and a 14-day free trial is available so you can test this plugin out for free, for 14 days. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
-Check out our customer [reviews](http://corp.wishpond.com/customer-case-studies/ "Reviews").
+[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews") 
 
-Some of our experienced customers boast over a few thousand leads for this price, which is amazing value for your money.
+Some of our experienced customers boast **over a few thousand leads** for this price, which is amazing value for your money.
 
 **Create your Landing Page in Minutes.**
 
