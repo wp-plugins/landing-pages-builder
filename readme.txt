@@ -11,7 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-> This plugin works great with the [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") and [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
+> This plugin works great with the [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
+
+Pricing starts at $19/month, and you are automatically signed up for a 14-day free trial. Check out our customer [reviews](http://corp.wishpond.com/customer-case-studies/ "Reviews"). You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing"). Some of our customers boast over a few thousand leads for this price, which is incredible, unmatched value for your money.
 
 With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else. Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
