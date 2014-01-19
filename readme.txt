@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-> Create Landing Pages quickly for your wordpress site! Monitor and optimize your landing pages using the analytics provided, to improve conversion rates. This plugin works great with the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") and [Facebook Ads](http://wordpress.org/plugins/wishpond-social-campaigns/ "Create Facebook Ads for your wordpress with one button") plugins to get more leads and improve conversion rates on your site.
+> This plugin works great with the [Facebook Ads](http://wordpress.org/plugins/wishpond-social-campaigns/ "Create Facebook Ads for your wordpress with one button") and [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
 
 With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else. Improve conversion rates, get new leads and manage all your landing pages in one place. Optimize your landing pages with on the analytics provided.
 
