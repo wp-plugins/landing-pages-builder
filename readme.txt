@@ -96,7 +96,7 @@ Yes and no. When you sign up for a free trial with the [Landing Pages Builder](h
 
 When the trial expires you will begin a paid subscription period. If you do not wish to begin a paid subscription period, please cancel your pricing plan within the 14-days of free trial. When you cancel a plan, you can still use our [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button" plugin as before.
 
-The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") plugin doesn't require a subscription and therefore doesn't have a trial. If a card on your account stops working and your account is on a paid subscription or you have facebook ads running, your account may be limited.
+The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") plugin doesn't require a subscription and therefore doesn't have a trial.
 
 = I have another question, what do I do? =
 
