@@ -70,7 +70,7 @@ Some of our experienced customers boast **over a few thousand leads** for this p
 
 = Do I need to have a Wishpond account set up already? =
 
-No. We automatically create a Wishpond account for you.
+No. We automatically create a Wishpond account for you using your site administrator e-mail.
 
 = Can I try out the Landing Pages Builder for free? =
 
@@ -81,10 +81,6 @@ Yes, you can try Social Campaigns completely free for the first 14 days.
 * Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can run unlimited campaigns for FREE for the first 14 days
 * You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
-
-= What kind of support do I get? =
-
-Wishpond campaigns are extremely easy and fast to set up. If you ever need assistance, we are available to you through live chat, email, and phone support.
 
 = What kind of support do I get? =
 
