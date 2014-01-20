@@ -114,10 +114,16 @@ You can always talk to us, we'd love to help out.
 
 == Upgrade Notice ==
 
+= 1.1 =
+* Fixed a few bugs with accessing the plugin
+
 = 1.0 =
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.1 =
+* Fixed a few bugs with accessing the plugin
 
 = 1.0 =
 * The first version. The big bang. Where it all began.
