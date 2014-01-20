@@ -29,10 +29,9 @@
   /*
   * Wishpond Globals
   */
-  define('WISHPOND_SITE_URL', 'http://localhost:3000/');
   if ( ! defined( 'WISHPOND_SITE_URL' ) )
   {
-    define('WISHPOND_SITE_URL', 'http://localhost:3000/');
+    define('WISHPOND_SITE_URL', 'https://www.wishpond.com');
   }
 
   if ( ! defined( 'WISHPOND_SIGNUP_URL' ) )
@@ -47,7 +46,7 @@
   }
   if ( ! defined( 'WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL' ) )
   {
-    define('WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL', 'http://10.0.2.2:3000/central/sessions/get_wordpress_auth_token');
+    define('WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL', WISHPOND_SITE_URL. '/central/sessions/get_wordpress_auth_token');
   }
 
   /*
