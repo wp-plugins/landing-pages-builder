@@ -29,6 +29,7 @@
   /*
   * Wishpond Globals
   */
+
   if ( ! defined( 'WISHPOND_SITE_URL' ) )
   {
     define('WISHPOND_SITE_URL', 'https://www.wishpond.com');
@@ -44,6 +45,7 @@
   {
     define('WISHPOND_LANDING_PAGES_AUTH_WITH_TOKEN_URL', WISHPOND_SITE_URL . "/central/sessions/auth_with_wordpress");
   }
+
   if ( ! defined( 'WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL' ) )
   {
     define('WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL', WISHPOND_SITE_URL. '/central/sessions/get_wordpress_auth_token');
