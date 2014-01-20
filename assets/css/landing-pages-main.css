@@ -1,0 +1,9 @@
+.landing_pages_iframe_holder {
+  overflow: hidden;
+}
+#wishpond_landing_pages_iframe {
+  width:100%;
+  height: 1000px;
+  background: url('../images/ajax-loader.png') 50% 50% no-repeat;
+  overflow-x: hidden;
+}
