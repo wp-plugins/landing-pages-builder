@@ -72,7 +72,7 @@ Some of our experienced customers boast **over a few thousand leads** for this p
 
 No. We automatically create a Wishpond account for you.
 
-= Can I try out Social Campaigns free? =
+= Can I try out the Landing Pages Builder for free? =
 
 Yes, you can try Social Campaigns completely free for the first 14 days.
 
@@ -86,11 +86,23 @@ Yes, you can try Social Campaigns completely free for the first 14 days.
 
 Wishpond campaigns are extremely easy and fast to set up. If you ever need assistance, we are available to you through live chat, email, and phone support.
 
+= What kind of support do I get? =
+
+Wishpond campaigns are extremely easy and fast to set up. If you ever need assistance, we are available to you through live chat, email, and phone support.
+
+= Is the 14-day free trial shared with the other Wishpond plugins? =
+
+Yes and no. When you sign up for a free trial with the [Landing Pages Builder](http://wordpress.org/plugins/landing-pages-builder/ "Landing Pages Builder") plugin or with our [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugin, the trial is shared.
+
+When the trial expires you will begin a paid subscription period. If you do not wish to begin a paid subscription period, please cancel your pricing plan within the 14-days of free trial. When you cancel a plan, you can still use our [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button" plugin as before.
+
+The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") plugin doesn't require a subscription and therefore doesn't have a trial. If a card on your account stops working, your account may be suspended and all your ads and social campaigns paused.
+
 = I have another question, what do I do? =
 
 Don't hesitate to contact us! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
-This plugin is easy to use, but you can always talk to us, we'd love to help out.
+You can always talk to us, we'd love to help out.
 
 == Screenshots ==
 
