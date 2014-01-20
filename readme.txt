@@ -115,7 +115,7 @@ You can always talk to us, we'd love to help out.
 == Upgrade Notice ==
 
 = 1.1 =
-* Fixed a few bugs with accessing the plugin
+* Fixed a few bugs that were preventing some users from accessing the plugin
 
 = 1.0 =
 * The first version. The big bang. Where it all began.
@@ -123,7 +123,7 @@ You can always talk to us, we'd love to help out.
 == Changelog ==
 
 = 1.1 =
-* Fixed a few bugs with accessing the plugin
+* Fixed a few bugs that were preventing some users from accessing the plugin
 
 = 1.0 =
 * The first version. The big bang. Where it all began.
