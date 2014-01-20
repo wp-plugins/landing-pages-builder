@@ -5,7 +5,7 @@ Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator
 Donate Link: N/A
 Requires at least: 3.0.0
 Tested up to: 3.8
-Stable tag: 1.1
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,10 +114,16 @@ You can always talk to us, we'd love to help out.
 
 == Upgrade Notice ==
 
+= 1.1 =
+* Fixed a few bugs with accessing the plugin
+
 = 1.0 =
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.1 =
+* Fixed a few bugs with accessing the plugin
 
 = 1.0 =
 * The first version. The big bang. Where it all began.
