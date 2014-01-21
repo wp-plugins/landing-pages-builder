@@ -5,7 +5,7 @@
    * Description: Create landing pages for your wordpress site. Monitor analytics and improve conversion rates, host your landing pages anywhere and more.
    * Version: 1.1
    * Author: Wishpond
-   * Text Domain: wordpress-landing-pages-builder
+   * Text Domain: landing-pages-builder
    * Author URI: http://wishpond.com
    * License: GNU General Public License version 2.0 (GPL-2.0)
    */
