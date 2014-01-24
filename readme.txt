@@ -33,7 +33,7 @@ Some of our experienced customers boast **30,000 leads in 6 weeks**, which is un
  
 - Wishpond’s Free Page Buddy System gives precise feedback to maximize conversion.
 
-**Custom Form Fields + Like-Gating**
+**Custom Form Fields & Like-Gating**
 
 - Collect Emails, Phone Numbers & more with custom entry forms.
  
