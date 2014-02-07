@@ -6,7 +6,7 @@
    * Version: 1.1
    * Author: Wishpond
    * Text Domain: landing-pages-builder
-   * Author URI: http://wishpond.com
+   * Author URI: http://corp.wishpond.com
    * License: GNU General Public License version 2.0 (GPL-2.0)
    */
 
