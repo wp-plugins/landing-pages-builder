@@ -96,9 +96,7 @@ The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook A
 
 = I have another question, what do I do? =
 
-Don't hesitate to contact us! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
-
-You can always talk to us, we'd love to help out.
+Contact us anytime! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
 == Screenshots ==
 
