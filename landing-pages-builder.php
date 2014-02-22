@@ -10,7 +10,7 @@
    * License: GNU General Public License version 2.0 (GPL-2.0)
    */
 
-  /*  Copyright 2013 Wishpond  ( email : support@wishpond.com )
+  /*  Copyright 2014 Wishpond  ( email : support@wishpond.com )
 
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License, version 2, as 
