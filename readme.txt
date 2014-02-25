@@ -50,7 +50,6 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
  
 - Export your contact list to your Email or CRM service.
 
-
 == Installation ==
 
 1. Download and unzip the Wordpress Landing Pages plugin.
@@ -96,7 +95,7 @@ The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook A
 
 = I have another question, what do I do? =
 
-Contact us anytime! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
+Contact us anytime! If you ever need a question, you can always call us at: 1-800-921-0167, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
 == Screenshots ==
 
