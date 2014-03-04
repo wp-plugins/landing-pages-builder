@@ -1,11 +1,11 @@
 === Landing Pages Builder ===
 Contributors: atajsekandar, cosminatanasiu 
-Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, page, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image
+Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image, builder, manage, simple, integration, easy, quick, template, templates, landing page templates, landing page template, page templates, page template
 
 Donate Link: N/A
 Requires at least: 3.0.0
 Tested up to: 3.8
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,15 +17,17 @@ With this plugin you can easily create and monitor Landing Pages for your wordpr
 
 **Free Trial & Pricing**
 
+**30,000 leads in 6 weeks** were acquired by some of our customers, which is unparalleled value for your money.
+
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
-Some of our experienced customers boast **30,000 leads in 6 weeks**, which is unparalleled value for your money.
-
 **Create your Landing Page in Minutes.**
 
 - No coding required. Create your Landing Page in just a few clicks.
+
+- Use one of our Landing Page Templates to get the best results.
  
 - Publish to WordPress, Facebook, Twitter & your Website with a click.
  
@@ -49,7 +51,6 @@ Some of our experienced customers boast **30,000 leads in 6 weeks**, which is un
 - Send email automation campaigns to leads to turn them into customers.
  
 - Export your contact list to your Email or CRM service.
-
 
 == Installation ==
 
@@ -96,9 +97,7 @@ The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook A
 
 = I have another question, what do I do? =
 
-Don't hesitate to contact us! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
-
-You can always talk to us, we'd love to help out.
+Contact us anytime! If you ever need a question, you can always call us at: 1-800-921-0167, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
 == Screenshots ==
 
@@ -114,6 +113,9 @@ You can always talk to us, we'd love to help out.
 
 == Upgrade Notice ==
 
+= 1.2 =
+* Updated the authentication framework
+
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin
 
@@ -121,6 +123,9 @@ You can always talk to us, we'd love to help out.
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.2 =
+* Updated the authentication framework
 
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin
