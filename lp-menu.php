@@ -39,9 +39,6 @@
   /*-----------------------------------------------------------*/
   function landing_pages_dashboard_page_display()
   {
-    LpWishpondKey::auth_token(false);
-    LpWishpondKey::master_token(false);
-    LpWishpondStorage::disable_first_visit(false);
     $iframe_url = LpWishpondAuthenticator::wishpond_auth_url_with_token("/central/landing_pages");
 
     wp_enqueue_style( "LandingPagesMainCss" );

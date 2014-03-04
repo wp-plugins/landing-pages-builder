@@ -5,7 +5,7 @@ Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator
 Donate Link: N/A
 Requires at least: 3.0.0
 Tested up to: 3.8
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -113,6 +113,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Upgrade Notice ==
 
+= 1.2 =
+* Updated the authentication framework
+
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin
 
@@ -120,6 +123,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.2 =
+* Updated the authentication framework
 
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin

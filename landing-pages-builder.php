@@ -3,7 +3,7 @@
    * Plugin Name: Landing Pages Builder
    * Plugin URI: http://corp.wishpond.com/landing-page-builder/
    * Description: Create amazing landing pages from your wordpress site and host them anywhere. Monitor analytics and improve conversion rates and much more.
-   * Version: 1.1
+   * Version: 1.2
    * Author: Wishpond
    * Text Domain: landing-pages-builder
    * Author URI: http://corp.wishpond.com
