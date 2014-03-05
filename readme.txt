@@ -1,6 +1,6 @@
 === Landing Pages Builder ===
 Contributors: atajsekandar, cosminatanasiu 
-Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image, builder, manage, simple, integration, easy, quick, template, templates, landing page templates, landing page template, page templates, page template
+Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image, builder, manage, simple, integration, easy, quick, template, templates, landing page templates, landing page template, page templates, page template, auto
 
 Donate Link: N/A
 Requires at least: 3.0.0
@@ -125,7 +125,7 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 == Changelog ==
 
 = 1.2 =
-* Updated the authentication framework
+* In version 1.1 some users weren't automatically relogged in from the wordpress platform. We've updated the automatic authentication to allow users to be automatically relogged to their accounts after a short while.
 
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin
