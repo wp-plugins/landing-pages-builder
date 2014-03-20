@@ -81,8 +81,8 @@ Yes, you can try Social Campaigns completely free for the first 14 days.
 
 = How much does it cost to run a landing page? =
 
-* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can run unlimited campaigns for FREE for the first 14 days
+* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
 
 = What kind of support do I get? =
