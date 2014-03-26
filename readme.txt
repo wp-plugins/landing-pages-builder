@@ -15,7 +15,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 > This plugin works great with the [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
 
-With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else. Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
+With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else.
+
+Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
 **Free Trial & Pricing**
 
