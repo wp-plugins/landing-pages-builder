@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 > This plugin works great with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
 
-With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else.
+With this plugin you can easily create and monitor Landing Pages for your wordpress site.
 
 Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
@@ -105,15 +105,16 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Screenshots ==
 
-1. View all your landing pages in the `Landing Pages` dashboard
-2. Quickly create a landing page and preview it at the same time
-3. Edit what the landing page looks like after submitting the form
-4. View the landing page report (1)
-5. View the landing page report (2)
-6. Add your landing page to your wordpress site, Facebook, Twitter or any other site
-7. Use the shortcode provided to use the landing page on your wordpress site
-8. Add the shortcode to any wordpress page or post
-9. View the landing page on your site
+01. View all your landing pages in the `Landing Pages` dashboard
+02. Choose the landing page template that's best for you
+03. Quickly create a landing page and preview it at the same time
+04. Edit what the landing page looks like after submitting the form
+05. View the landing page report (1)
+06. View the landing page report (2)
+07. Add your landing page to your wordpress site, Facebook, Twitter or any other site
+08. Use the shortcode provided to use the landing page on your wordpress site
+09. Add the shortcode to any wordpress page or post
+10. View the landing page on your site
 
 == Upgrade Notice ==
 
