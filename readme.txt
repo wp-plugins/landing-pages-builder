@@ -106,7 +106,7 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 == Screenshots ==
 
 01. View all your landing pages in the `Landing Pages` dashboard
-02. Choose from our many templates, the one that works best for you
+02. Choose the template that's best for you, from our many templates
 03. Quickly create a landing page and preview it at the same time
 04. Edit what the landing page looks like after submitting the form
 05. View the landing page report (1)
