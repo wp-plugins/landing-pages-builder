@@ -17,7 +17,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 With this plugin you can easily create and monitor Landing Pages for your wordpress site.
 
-Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
+Improve conversion rates, get new leads and manage all your landing pages in one place.
+
+**Choose from our many templates to have a landing page in minutes!**
+
+Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
 **Free Trial & Pricing**
 
