@@ -5,7 +5,7 @@ Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator
 Donate Link: N/A
 Requires at least: 3.0.0
 Tested up to: 3.8.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -120,6 +120,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Upgrade Notice ==
 
+= 1.3 =
+* Changed the plugin menu structure for better accessibility
+
 = 1.2 =
 * Updated the authentication framework
 
@@ -130,6 +133,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.3 =
+* Updated the menu structure for better accessibility
 
 = 1.2 =
 * In version 1.1 some users weren't automatically relogged in from the wordpress platform. We've updated the automatic authentication to allow users to be automatically relogged to their accounts after a short while.
