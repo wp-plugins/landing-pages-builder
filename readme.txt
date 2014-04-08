@@ -1,31 +1,39 @@
 === Landing Pages Builder ===
 Contributors: atajsekandar, cosminatanasiu 
-Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, page, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image
+Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator, creating, creation, create landing pages, creating landing pages, landing, pages, landing pages, page, landing page, SEO, page,  post, posts, pages, shortcode, short code, short-code, short, code, improve, conversions, improve conversions, plugin, plugins, online, marketing, online marketing, tool, admin, administration, analytics, button, dashboard, integration, social, media, social media, tracking, track, editor, landing pages editor, facebook, like, likes, facebook likes, facebook like, gating, like gating, facebook like gating, facebook, twitter, host, hosting, embed, embedding, wordpress, images, image, builder, manage, simple, integration, easy, quick, template, templates, landing page templates, landing page template, page templates, page template, auto, landing page builder
 
 Donate Link: N/A
 Requires at least: 3.0.0
-Tested up to: 3.8
-Stable tag: 1.1
+Tested up to: 3.8.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-> Create and monitor Landing Pages directly from your wordpress plugin! This plugin works great with the [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
+> Create and monitor Landing Pages directly from your wordpress site!
 
-With this plugin you can easily create and monitor Landing Pages for your wordpress site with features you won't get anywhere else. Improve conversion rates, get new leads and manage all your landing pages in one place. Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
+> This plugin works great with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
+
+With this plugin you can easily create and monitor Landing Pages for your wordpress site. Improve conversion rates, get new leads and manage all your landing pages in one place.
+
+**Use the Template you want, to have a landing page running in minutes!**
+
+Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
 **Free Trial & Pricing**
 
-[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
+**30,000 leads in 6 weeks** are numbers some of our customers boast, which is unparalleled value for your money.
 
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
-Some of our experienced customers boast **30,000 leads in 6 weeks**, which is unparalleled value for your money.
+[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
 **Create your Landing Page in Minutes.**
 
 - No coding required. Create your Landing Page in just a few clicks.
+
+- Use one of our Landing Page Templates to get the best results.
  
 - Publish to WordPress, Facebook, Twitter & your Website with a click.
  
@@ -49,7 +57,6 @@ Some of our experienced customers boast **30,000 leads in 6 weeks**, which is un
 - Send email automation campaigns to leads to turn them into customers.
  
 - Export your contact list to your Email or CRM service.
-
 
 == Installation ==
 
@@ -78,8 +85,8 @@ Yes, you can try Social Campaigns completely free for the first 14 days.
 
 = How much does it cost to run a landing page? =
 
-* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can run unlimited campaigns for FREE for the first 14 days
+* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
 
 = What kind of support do I get? =
@@ -96,23 +103,28 @@ The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook A
 
 = I have another question, what do I do? =
 
-Don't hesitate to contact us! If you ever need a question, you can always call us at: `1-800-921-0167`, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
-
-You can always talk to us, we'd love to help out.
+Contact us anytime! If you ever need a question, you can always call us at: 1-800-921-0167, email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
 == Screenshots ==
 
-1. View all your landing pages in the `Landing Pages` dashboard
-2. Quickly create a landing page and preview it at the same time
-3. Edit what the landing page looks like after submitting the form
-4. View the landing page report (1)
-5. View the landing page report (2)
-6. Add your landing page to your wordpress site, Facebook, Twitter or any other site
-7. Use the shortcode provided to use the landing page on your wordpress site
-8. Add the shortcode to any wordpress page or post
-9. View the landing page on your site
+01. View all your landing pages in the `Landing Pages` dashboard
+02. Choose the template that's best for you, from our many templates
+03. Quickly create a landing page and preview it at the same time
+04. Edit what the landing page looks like after submitting the form
+05. View the landing page report (1)
+06. View the landing page report (2)
+07. Add your landing page to your wordpress site, Facebook, Twitter or any other site
+08. Use the shortcode provided to use the landing page on your wordpress site
+09. Add the shortcode to any wordpress page or post
+10. View the landing page on your site
 
 == Upgrade Notice ==
+
+= 1.3 =
+* Changed the plugin menu structure for better accessibility
+
+= 1.2 =
+* Updated the authentication framework
 
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin
@@ -121,6 +133,12 @@ You can always talk to us, we'd love to help out.
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.3 =
+* Updated the menu structure for better accessibility
+
+= 1.2 =
+* In version 1.1 some users weren't automatically relogged in from the wordpress platform. We've updated the automatic authentication to allow users to be automatically relogged to their accounts after a short while.
 
 = 1.1 =
 * Fixed a few bugs that were preventing some users from accessing the plugin

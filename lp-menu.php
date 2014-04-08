@@ -12,26 +12,26 @@
         __( 'Landing Pages', LANDING_PAGES_SLUG ),          // The title to be displayed on the corresponding page for this menu  
         __( 'Landing Pages', LANDING_PAGES_SLUG ),                  // The text to be displayed for this actual menu item  
         'administrator',            // Which type of users can see this menu  
-        LANDING_PAGES_SLUG . '-landing-pages-dashboard',                  // The unique ID - that is, the slug - for this menu item  
-        'landing_pages_dashboard_page_display',// The name of the function to call when rendering the menu for this page  
+        LANDING_PAGES_SLUG . '-landing-pages-create-',                  // The unique ID - that is, the slug - for this menu item  
+        'landing_pages_create_landing_page_page_display',// The name of the function to call when rendering the menu for this page  
         plugins_url("assets/images/fb-ads.png", __FILE__),
         '59.5137'
     );
     add_submenu_page(
-      LANDING_PAGES_SLUG . "-landing-pages-dashboard",
+      LANDING_PAGES_SLUG . "-landing-pages-create-",
+      __( "Add New", LANDING_PAGES_SLUG ),
+     __( "Add New", LANDING_PAGES_SLUG ),
+      "administrator",
+      LANDING_PAGES_SLUG . "-landing-pages-create-",
+      "landing_pages_create_landing_page_page_display"
+    );
+    add_submenu_page(
+      LANDING_PAGES_SLUG . "-landing-pages-create-",
       __( "Landing Pages", LANDING_PAGES_SLUG ),
       __( "Landing Pages", LANDING_PAGES_SLUG ),
       "administrator",
       LANDING_PAGES_SLUG . "-landing-pages-dashboard",
       "landing_pages_dashboard_page_display"
-    );
-    add_submenu_page(
-      LANDING_PAGES_SLUG . "-landing-pages-dashboard",
-      __( "Create a Landing Page", LANDING_PAGES_SLUG ),
-     __( "Create a Landing Page", LANDING_PAGES_SLUG ),
-      "administrator",
-      LANDING_PAGES_SLUG . "-landing-pages-create-",
-      "landing_pages_create_landing_page_page_display"
     );
   }
 
@@ -39,9 +39,6 @@
   /*-----------------------------------------------------------*/
   function landing_pages_dashboard_page_display()
   {
-    LpWishpondKey::auth_token(false);
-    LpWishpondKey::master_token(false);
-    LpWishpondStorage::disable_first_visit(false);
     $iframe_url = LpWishpondAuthenticator::wishpond_auth_url_with_token("/central/landing_pages");
 
     wp_enqueue_style( "LandingPagesMainCss" );
