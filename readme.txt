@@ -29,11 +29,11 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
 
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
-**Create your Landing Page in Minutes.**
+## Create your Landing Page in Minutes ##
 
 - No coding required. Create your Landing Page in just a few clicks.
 
-- Use one of our Landing Page Templates to get the best results.
+- Use our Responsive Templates to get the best results.
  
 - Publish to WordPress, Facebook, Twitter & your Website with a click.
  
