@@ -21,11 +21,11 @@ With this plugin you can easily create and monitor Landing Pages for your wordpr
 
 Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
-**Free Trial & Pricing**
-
-**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
+### Free Trial & Pricing
 
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
+
+**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
 
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
