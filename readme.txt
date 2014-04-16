@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-> Create and monitor Landing Pages directly from your wordpress site! Choose from our responsive templates to create the landing page of your dreams in minutes.
+> Create amazing Landing Pages directly from your wordpress site! Choose from our responsive templates to create the landing page of your dreams in minutes.
 
 > This plugin works great with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate new leads and get new customers.
 
