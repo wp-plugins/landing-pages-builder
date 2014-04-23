@@ -41,14 +41,6 @@ Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimi
  
 - Export leads to your Email Marketing or CRM service with a click.
 
-**Free Trial & Pricing**
-
-A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
-
-**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
-
-[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
-
 **Analyze, Segment & Follow-up.**
 - Track views, sign ups & conversion rate in real-time.
  
@@ -57,6 +49,14 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
 - Send email automation campaigns to leads to turn them into customers.
  
 - Export your contact list to your Email or CRM service.
+
+**Free Trial & Pricing**
+
+A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
+
+**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
+
+[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
 == Installation ==
 
