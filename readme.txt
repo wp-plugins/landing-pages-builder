@@ -21,14 +21,6 @@ With this plugin you can easily create and monitor Landing Pages for your wordpr
 
 Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
-### Free Trial & Pricing
-
-A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
-
-**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
-
-[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
-
 ## Create your Landing Page in Minutes ##
 
 - No coding required. Create your Landing Page in just a few clicks.
@@ -48,6 +40,14 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
 - Add a Like-to-See Fan-Gate so users must Like your Facebook Page to enter.
  
 - Export leads to your Email Marketing or CRM service with a click.
+
+**Free Trial & Pricing**
+
+A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
+
+**30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
+
+[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
 **Analyze, Segment & Follow-up.**
 - Track views, sign ups & conversion rate in real-time.
