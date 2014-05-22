@@ -71,8 +71,7 @@ class LpMenuBuilder
       plugins_url("assets/css/landing-pages-list.css", __FILE__)
     );
     wp_enqueue_style( "landing_pages_list_css" );
-    //debug
-    echo $wishpond_action;
+
     $wishpond_action  = preg_replace('/[^a-zA-Z\-_]+/i', "", $_GET["wishpond-action"]);
     $wishpond_id      = preg_replace('/[^0-9]+/i', "", $_GET["wishpond-id"]);
 
