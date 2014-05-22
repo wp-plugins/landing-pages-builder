@@ -3,7 +3,7 @@
    * Plugin Name: Landing Pages Builder
    * Plugin URI: http://corp.wishpond.com/landing-page-builder/
    * Description: Create amazing landing pages from your wordpress site and host them anywhere. Monitor analytics and improve conversion rates and much more.
-   * Version: 1.3
+   * Version: 1.4
    * Author: Wishpond
    * Text Domain: landing-pages-builder
    * Author URI: http://corp.wishpond.com
@@ -26,82 +26,67 @@
       Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
   */
 
-  /*
-  * Wishpond Globals
-  */
-
+  //debug
   if ( ! defined( 'WISHPOND_SITE_URL' ) )
   {
-    define('WISHPOND_SITE_URL', 'https://www.wishpond.com');
+    define( 'WISHPOND_SITE_URL' , 'http://dev.wishpond.com' );
   }
-
-  if ( ! defined( 'WISHPOND_SIGNUP_URL' ) )
+  //debug
+  if ( ! defined( 'WISHPOND_SECURE_SITE_URL' ) )
   {
-    define('WISHPOND_SIGNUP_URL', WISHPOND_SITE_URL . "/central/merchant_signups/new/");
-  }
-
-  # Used for authenticating every request, and redirecting to the proper location on central
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_AUTH_WITH_TOKEN_URL' ) )
-  {
-    define('WISHPOND_LANDING_PAGES_AUTH_WITH_TOKEN_URL', WISHPOND_SITE_URL . "/central/sessions/auth_with_wordpress");
-  }
-
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL' ) )
-  {
-    define('WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL', WISHPOND_SITE_URL. '/central/sessions/get_wordpress_auth_token');
-  }
-
-  /*
-  * Wishpond Ads
-  */
-  if ( ! defined( 'LANDING_PAGES_DIR' ) )
-  {
-    define( 'LANDING_PAGES_DIR', plugin_dir_path( __FILE__ ) );
+    define( 'WISHPOND_SECURE_SITE_URL' , 'https://dev.wishpond.com' );
   }
   if ( ! defined( 'LANDING_PAGES_SLUG' ) )
   {
-    define( 'LANDING_PAGES_SLUG', "wishpond-landing-pages" );
-  }
-  if ( ! defined( 'LANDING_PAGES_ADMIN_EMAIL' ) )
-  {
-    define( 'LANDING_PAGES_ADMIN_EMAIL', LANDING_PAGES_SLUG."-admin-email" );
-  }
-  if ( ! defined( 'LANDING_PAGES_FIRST_VISIT' ) )
-  {
-    define( 'LANDING_PAGES_FIRST_VISIT', LANDING_PAGES_SLUG."-first-visit" );
+    define( 'LANDING_PAGES_SLUG' , 'wishpond-landing-pages' );
   }
 
-  /*
-  * Authentication Keys
-  */
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_MASTER_TOKEN' ) )
+  $plugin_constants = array(
+    // Wishpond Globals
+    'WISHPOND_SIGNUP_URL'       => WISHPOND_SECURE_SITE_URL . "/central/merchant_signups/new/",
+    'WISHPOND_GUEST_SIGNUP_URL' => WISHPOND_SECURE_SITE_URL . "/central/merchant_signups/new/",
+    'WISHPOND_LOGIN_URL'        => WISHPOND_SECURE_SITE_URL . "/login",
+    'WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL'   => WISHPOND_SECURE_SITE_URL.'/central/sessions/get_wordpress_auth_token',
+    'WISHPOND_LANDING_PAGES_AUTH_WITH_TOKEN_URL'  => WISHPOND_SECURE_SITE_URL . "/central/sessions/auth_with_wordpress",
+
+    // Landing Pages Builder
+    'LANDING_PAGES_DIR'           => plugin_dir_path( __FILE__ ),
+    'LANDING_PAGES_ADMIN_EMAIL'   => LANDING_PAGES_SLUG."-admin-email",
+    'LANDING_PAGES_FIRST_VISIT'   => LANDING_PAGES_SLUG."-first-visit",
+    'DISABLE_GUEST_SIGNUP_OPTION' => LANDING_PAGES_SLUG."-guest-signup",
+
+    // token-based authentication
+    'WISHPOND_LANDING_PAGES_MASTER_TOKEN'       => LANDING_PAGES_SLUG.'_master_token',
+    'WISHPOND_LANDING_PAGES_AUTH_TOKEN'         => LANDING_PAGES_SLUG.'_auth_token',
+    'WISHPOND_LANDING_PAGES_AUTH_TOKEN_EXPIRY'  => LANDING_PAGES_SLUG.'_auth_token_expiry',
+    'WISHPOND_LANDING_PAGES_AUTH_TOKEN_TTL'     => 300,
+
+    'WISHPOND_FACEBOOK_APP_ID'                  => "515720611858523"
+
+  );
+
+  foreach( $plugin_constants as $name => $value)
   {
-    define('WISHPOND_LANDING_PAGES_MASTER_TOKEN', 'wishpond_landing_pages_master_token');
-  }
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_AUTH_TOKEN' ) )
-  {
-    define('WISHPOND_LANDING_PAGES_AUTH_TOKEN', 'wishpond_landing_pages_auth_token');
-  }
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_AUTH_TOKEN_EXPIRY' ) )
-  {
-    define('WISHPOND_LANDING_PAGES_AUTH_TOKEN_EXPIRY', 'wishpond_landing_pages_auth_token_expiry');
-  }
-  if ( ! defined( 'WISHPOND_LANDING_PAGES_AUTH_TOKEN_TTL' ) )
-  {
-    define( 'WISHPOND_LANDING_PAGES_AUTH_TOKEN_TTL', 300 ); // 5 minutes time to live - ttl on server = around 7 minutes
+    if ( ! defined( $name ) )
+    {
+      define( $name, $value );
+    }
   }
 
   /*
   * List & Load plugin files
   */
   $WISHPOND_LANDING_PAGES_PLUGIN_FILES = array(
-    "lp-wishpond-storage.php",
+    "storage/lp-wishpond-storage.php",
+    "storage/lp-wishpond-landing-page.php",
     "lp-wishpond-helpers.php",
     "lp-wishpond-key.php",
     "lp-wishpond-authenticator.php",
-    "lp-register-assets.php",
-    "lp-menu.php",
-    "lp-shortcodes.php"
+    "lp-create-menu.php",
+    "lp-wishpond-iframe.php",
+    "lp-shortcodes.php",
+    "lp-wishpond-url.php",
+    "lp-wishpond-templater.php"
   );
 
   foreach( $WISHPOND_LANDING_PAGES_PLUGIN_FILES as $file )
