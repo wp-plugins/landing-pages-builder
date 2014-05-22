@@ -4,8 +4,8 @@ Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator
 
 Donate Link: N/A
 Requires at least: 3.0.0
-Tested up to: 3.9
-Stable tag: 1.4
+Tested up to: 3.9.1
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,10 +64,10 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
 2. Upload the `wordpress-landing-pages` folder to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 4. You will now have a new Landing Pages link in your admin menu.
-5. To create a landing page, simply click the "create a landing page" link in your wordpress administrator menu, under "Landing Pages"
+5. To create a landing page, simply click the "create a landing page" link in your wordpress administrator menu, under "Landing Pages", and continue from there. If a login window appears, simply enter your e-mail and a password of your choosing to sign up.
 
 = Adding to any Website or Wordpress site =
-6. From there click 'Create' and you will be able to choose to create and configure your Landing Page.
+6. From there click 'Add New' and you will be able to choose to create and configure your Landing Page.
 7. Go to "Landing Pages" to view all your landing pages
 8. Select your landing page
 9. Click "Mange Campaign", then in the dropdown select "Add to Website"
@@ -139,8 +139,11 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Upgrade Notice ==
 
+= 1.4.1 =
+* Fixed a major redirection issue that was causing the plugin to break
+
 = 1.4 =
-* Integrated landing pages with wordpress pages, to be able to host landing pages with the click of a buttin
+* Integrated landing pages with wordpress pages, to be able to host landing pages with the click of a button
 
 = 1.3 =
 * Changed the plugin menu structure for better accessibility
