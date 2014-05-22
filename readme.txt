@@ -139,6 +139,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Upgrade Notice ==
 
+= 1.4 =
+* Integrated landing pages with wordpress pages, to be able to host landing pages with the click of a buttin
+
 = 1.3 =
 * Changed the plugin menu structure for better accessibility
 
