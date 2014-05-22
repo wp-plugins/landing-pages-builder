@@ -159,6 +159,12 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Changelog ==
 
+= 1.4.1 =
+* Fixed a major redirection issue that was causing the plugin to break
+
+= 1.4 =
+* Integrated landing pages with wordpress pages, to be able to host landing pages with the click of a button
+
 = 1.3 =
 * Updated the menu structure for better accessibility
 
