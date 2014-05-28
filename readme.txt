@@ -108,7 +108,7 @@ All you need is to make sure that the Permalinks are set to "Post Name" or "Cust
 Your Landing Pages are stored on Wishpond, so that you can add email automation, ad campaigns and other features to your Landing Pages.
 
 = How do I delete a Landing Page ? =
-After you've created a Landing Page, you can view it under "Landing Pages". Click the "Manage" link under the landing page to get to the management screen for that specific landing page. To delete it, simply scroll to the bottom of the management screen to delete that landing page.
+After you create a Landing Page, you can view it under "Landing Pages". Click the "Manage" link under the landing page to get to the management screen for that specific landing page. To delete it, simply scroll to the bottom of the management screen to delete that landing page.
 
 = What URL should I use when creating a Landing Page ? =
 When creating a landing page you have to make sure you use the domain of the wordpress page you are on, followed by the path at which you want the landing page to be hosted. So if my wordpress site is at "http://www.wishpond.com" (and I can see this in the address bar) and I want to host my Landing Page at "new-landing-page", then I would use the following url "http://www.wishpond.com/new-landing-page".
