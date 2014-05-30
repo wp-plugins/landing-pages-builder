@@ -87,7 +87,7 @@ When the trial expires you will begin a paid subscription period. If you do not 
 
 The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") plugin doesn't require a subscription and therefore doesn't have a trial.
 
-= Can I try out the Landing Pages Builder for free? =
+= Can I use the Landing Pages Builder for free? =
 
 Yes, you can try Social Campaigns completely free for the first 14 days.
 
