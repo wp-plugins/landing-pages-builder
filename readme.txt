@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Create and monitor Landing Pages on Wordpress. Improve conversion rates, get leads and manage all your landing pages in one place. Run self-optimizing ads to generate new leads fast.
 
-##Free Trial & Pricing##
+**Free Trial & Pricing**
 
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
@@ -29,7 +29,7 @@ A 14-day free trial is available, after which pricing starts at $19/month. You c
 
 Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
 
-## Create your Landing Page in Minutes ##
+**Create your Landing Page in Minutes**
 
 - No coding required. Create your Landing Page in just a few clicks.
 
