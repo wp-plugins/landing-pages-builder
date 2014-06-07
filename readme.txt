@@ -18,7 +18,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create and monitor Landing Pages on Wordpress. Improve conversion rates, get leads and manage all your landing pages in one place. Run self-optimizing ads to generate new leads fast.
 
 **Free Trial & Pricing**
-
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
 **30,000 leads in 6 weeks** are numbers our customers boast, which is unparalleled value for your money.
@@ -97,7 +96,7 @@ Yes, you can try Social Campaigns completely free for the first 14 days.
 * Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
 * You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
 
-= What kind of support do I get? =
+= What kind of support do I get ? =
 
 Wishpond campaigns are extremely easy and fast to set up. If you ever need assistance, we are available to you through live chat, email, and phone support.
 
