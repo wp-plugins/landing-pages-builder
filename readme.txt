@@ -49,6 +49,7 @@ Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimi
 - Export leads to your Email Marketing or CRM service with a click.
 
 **Analyze, Segment & Follow-up.**
+
 - Track views, sign ups & conversion rate in real-time.
  
 - A/B Split Test different copy and page elements to maximize conversion.
