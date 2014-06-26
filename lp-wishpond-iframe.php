@@ -6,7 +6,7 @@ class LpWishpondIframe
   public function __construct( $wishpond_url, $query_info = array() )
   {
     $this->wishpond_url  = $wishpond_url;
-    $this->url = LpWishpondAuthenticator::wishpond_auth_url($wishpond_url)."&amp;".build_query( $query_info );
+    $this->url = LpWishpondAuthenticator::wishpond_auth_url($wishpond_url)."&".build_query( $query_info );
   }
 
   public function display_iframe()

@@ -181,7 +181,7 @@
       // question mark not at end of url => some params already sent
       else if ( $position_of_question_mark < strlen( $url ) - 1 )
       {
-        $url .= "&amp;";
+        $url .= "&";
       }
 
       $url .= urlencode( $param ) . "=" . urlencode( $value );

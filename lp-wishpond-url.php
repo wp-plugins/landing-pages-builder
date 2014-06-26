@@ -47,7 +47,7 @@ class LpWishpondUrl
 
     foreach( $this->params as $param => $value )
     {
-      $query_string .= "&amp;";
+      $query_string .= "&";
       $query_string .= urlencode( $param ) . "=" . urlencode( $value );
     }
 
