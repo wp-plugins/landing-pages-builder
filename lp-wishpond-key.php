@@ -180,7 +180,7 @@
       else
       {
         // setter
-        LpWishpondStorage::delete( WISHPOND_LANDING_PAGES_MASTER_TOKEN);
+        LpWishpondStorage::delete( WISHPOND_LANDING_PAGES_MASTER_TOKEN );
         if( $master_token != false )
         {
           LpWishpondStorage::add( WISHPOND_LANDING_PAGES_MASTER_TOKEN, $master_token );
@@ -195,7 +195,7 @@
     {
       $hashed_string  = urlencode( php_uname( "n" ) );
       $hashed_string .= site_url();
-      $hashed_string .= LpWishpondHelpers::get_random_string( 64 );
+      $hashed_string .= LpWishpondHelpers::random_string( 64 );
       $hashed_string .= microtime();
       $key = hash( 'sha512', $hashed_string );
       return $key;

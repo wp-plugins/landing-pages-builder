@@ -1,0 +1,45 @@
+table.lp-wishpond-list
+{
+  width: 100%;
+}
+
+table.lp-wishpond-list td.image
+{
+  text-align: center;
+}
+
+table.lp-wishpond-list td.title
+{
+  width: 50%;
+}
+
+table.lp-wishpond-list td, table.lp-wishpond-list th
+{
+  padding: 10px 15px;
+  text-align:left;
+}
+table.lp-wishpond-list th
+{
+  padding: 20px 15px;
+}
+
+table.lp-wishpond-list tr
+{
+  background-color: #fff;
+}
+
+table.lp-wishpond-list tr.alternate
+{
+  background-color: #f9f9f9;
+}
+
+.lp-wishpond-list img
+{
+  max-width: 60px;
+  max-height: 60px;
+}
+
+table.lp-wishpond-list a
+{
+  text-decoration: none;
+}

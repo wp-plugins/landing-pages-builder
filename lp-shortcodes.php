@@ -10,7 +10,7 @@ function lp_wishpond_func($attrs) {
     $attrs["width"] = "100%";
   }
 
-  $options_name = 'wpsc'.$attrs["id"];
+  $options_name = 'wpsc_landing_page'.$attrs["id"];
 
   // Backwards compatibility.
   if (isset($attrs["mid"])) {
@@ -72,6 +72,9 @@ function lp_wishpond_func($attrs) {
   return $html;
 }
 
+add_shortcode('wpsc_landing_page', 'lp_wishpond_func');
+
+#used for backwards compatibility mostly; might conflict with shortcode from wishpond-social-contests plugin
 add_shortcode('wpsc', 'lp_wishpond_func');
 
 ?>

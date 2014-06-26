@@ -14,9 +14,8 @@
     {
       if( function_exists('curl_version') )
       {
-        
         //curl_setopt( $handler, CURLOPT_SSL_VERIFYPEER, false );
-        $url = WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL;
+        $url = new LpWishpondUrl(WISHPOND_LANDING_PAGES_GET_AUTH_TOKEN_URL);
         $postfields = array(
             'master_token' => $master_token,
             'email' => LpWishpondStorage::get_admin_email(),
@@ -53,11 +52,12 @@
 
       foreach($postfields as $field => $val)
       {
-        $url = self::add_url_param( $url, $field, $val );
+        $url->add_param( $field, $val );
       }
+
       $curlConfig = array(
-        CURLOPT_URL            => $url,
-        CURLOPT_POST           => false,
+        CURLOPT_URL            => $url->url(),
+        CURLOPT_POST           => true,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CONNECTTIMEOUT => 30,
       );
@@ -66,7 +66,10 @@
       return $result;
     }
 
-    public static function wishpond_auth_url_with_token( $redirect_to = "")
+    /**
+    * Used for the old-style authentication
+    */
+    public static function wishpond_auth_url_with_token( $redirect_to = "" )
     {
       $url = WISHPOND_LANDING_PAGES_AUTH_WITH_TOKEN_URL;
 
@@ -76,9 +79,11 @@
       $url = self::add_url_param( $url, "auth_token", $auth_token );
       $url = self::add_url_param( $url, "redirect_to", $redirect_to );
 
-      $url = self::add_url_param( $url, "wordpress_analytics[utm_campaign]", "WordpressLANDINGPAGES");
-      $url = self::add_url_param( $url, "wordpress_analytics[utm_source]", "wordpress.com");
-      $url = self::add_url_param( $url, "wordpress_analytics[utm_medium]", "plugin");
+      $url = self::add_url_param( $url, "utm_campaign", "Wordpress");
+      $url = self::add_url_param( $url, "utm_source", "wordpress.com");
+      $url = self::add_url_param( $url, "utm_medium", "Landing Pages");
+      $url = self::add_url_param( $url, "referral", "wp_fb_landing_pages");
+      $url = self::add_url_param( $url, "wordpress_anticache", LpWishpondHelpers::random_string(10));
 
       if( LpWishpondStorage::is_first_visit() )
       {
@@ -88,6 +93,82 @@
       return $url;
     }
 
+    /**
+    * Picks guest user if no master token was ever used
+    */
+    public static function wishpond_auth_url( $redirect_to = "" )
+    {
+      $master_token = LpWishpondStorage::get(WISHPOND_LANDING_PAGES_MASTER_TOKEN);
+
+      // we want new users to use guest_user signup, but still keep token-based signup/signin for old users
+      if(LpWishpondStorage::using_token_based_auth() )
+      {
+        return self::wishpond_auth_url_with_token( $redirect_to );
+      }
+      else
+      {
+        return self::wishpond_auth_url_with_guest_user( $redirect_to );
+      }
+    }
+
+    /**
+    * Used for the new style authentication through guest users
+    */
+    public static function wishpond_auth_url_with_guest_user( $redirect_to_string = "")
+    {
+      $url   = new LpWishpondUrl();
+      if( LpWishpondStorage::is_guest_signup_enabled() )
+      {
+        $url->set_url( WISHPOND_GUEST_SIGNUP_URL );
+        $url->add_param( "guest_signup", "true" );
+        $url->add_param( "show_site_menu", "true" );
+      }
+      else
+      {
+        $url->set_url( WISHPOND_LOGIN_URL );
+      }
+
+      // $read_only_token = LpWishpondStorage::find_or_create_read_token();
+
+      $url->add_param( "email", LpWishpondStorage::get_admin_email() );
+
+      $redirect_to = new LpWishpondUrl( $redirect_to_string );
+
+      $redirect_to->add_param( "utm_campaign", "Wordpress");
+      $redirect_to->add_param( "utm_source", "wordpress.com");
+      $redirect_to->add_param( "utm_medium", "Landing Pages Builder");
+
+      $url->add_param( "redirect_to", $redirect_to->url() );
+      $url->add_param( "utm_campaign", "Wordpress");
+      $url->add_param( "utm_source", "wordpress.com");
+      $url->add_param( "utm_medium", "Landing Pages");
+      $url->add_param( "wordpress_api_parent_url", self::current_page_url());
+      $url->add_param( "referral", "wp_fb_landing_pages");
+      $url->add_param( "wordpress_anticache", LpWishpondHelpers::random_string(10));
+
+      if( LpWishpondStorage::is_first_visit() )
+      {
+        $url->add_param( "first_visit", "true" );
+        LpWishpondStorage::disable_first_visit();
+      }
+      return $url->url();
+    }
+
+    public static function current_page_url() {
+      $page_url = ($_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+
+      if ($_SERVER["SERVER_PORT"] != "80") {
+        $page_url .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+      } else {
+        $page_url .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+      }
+
+      return $page_url;
+    }
+
+    /**
+    * DEPRECATED: used only by token-based authentication
+    */
     public static function add_url_param( $url, $param, $value )
     {
       $position_of_question_mark = strpos( $url, "?" );
@@ -100,7 +181,7 @@
       // question mark not at end of url => some params already sent
       else if ( $position_of_question_mark < strlen( $url ) - 1 )
       {
-        $url .= "&amp;";
+        $url .= "&";
       }
 
       $url .= urlencode( $param ) . "=" . urlencode( $value );
