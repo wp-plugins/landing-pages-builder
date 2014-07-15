@@ -139,6 +139,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 
 == Upgrade Notice ==
 
+= 1.4.2 =
+* Minor updates for better usability
+
 = 1.4.1 =
 * Fixed a major redirection issue that was causing the plugin to break
 
@@ -158,6 +161,9 @@ Contact us anytime! If you ever need a question, you can always call us at: 1-80
 * The first version. The big bang. Where it all began.
 
 == Changelog ==
+
+= 1.4.2 =
+* Minor updates for better usability
 
 = 1.4.1 =
 * Fixed a major redirection issue that was causing the plugin to break
