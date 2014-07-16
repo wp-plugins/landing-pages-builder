@@ -20,8 +20,6 @@ Create and monitor Landing Pages on Wordpress. Get new leads, improve conversion
 **Free Trial & Pricing**
 A 14-day free trial is available, after which pricing starts at $19/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
 
-**30,000 leads in 6 weeks** are numbers our customers boast.
-
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
 **Choose the best Template for you, to have a landing page running in minutes!**

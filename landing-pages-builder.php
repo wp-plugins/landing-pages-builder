@@ -97,4 +97,22 @@
   {
     include_once LANDING_PAGES_DIR . $file;
   }
+
+  /*************************
+  * Register Activation Hook
+  **************************/
+  register_activation_hook(__FILE__, 'landing_pages_builder_activate');
+  add_action('admin_init', 'landing_pages_builder_redirect');
+
+  function landing_pages_builder_activate() {
+    add_option('landing_pages_builder_do_activation_redirect', true);
+  }
+
+  function landing_pages_builder_redirect() {
+    if ( get_option( 'landing_pages_builder_do_activation_redirect', false ) ) {
+      $url = admin_url( "admin.php" )."?page=".LANDING_PAGES_SLUG."-landing-pages-dashboard";
+      delete_option( 'landing_pages_builder_do_activation_redirect' );
+      exit( wp_redirect( $url ) );
+    }
+  }
 ?>

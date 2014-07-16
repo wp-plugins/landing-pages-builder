@@ -137,14 +137,15 @@
       $redirect_to->add_param( "utm_campaign", "Wordpress");
       $redirect_to->add_param( "utm_source", "wordpress.com");
       $redirect_to->add_param( "utm_medium", "Landing Pages Builder");
+      $redirect_to->add_param( "wordpress_api_parent_url", self::current_page_url() );
+      $redirect_to->add_param( "wordpress_plugin_host", self::current_page_host() );
 
       $url->add_param( "redirect_to", $redirect_to->url() );
-      $url->add_param( "utm_campaign", "Wordpress");
-      $url->add_param( "utm_source", "wordpress.com");
-      $url->add_param( "utm_medium", "Landing Pages");
-      $url->add_param( "wordpress_api_parent_url", self::current_page_url());
-      $url->add_param( "referral", "wp_fb_landing_pages");
-      $url->add_param( "wordpress_anticache", LpWishpondHelpers::random_string(10));
+      $url->add_param( "utm_campaign", "Wordpress" );
+      $url->add_param( "utm_source", "wordpress.com" );
+      $url->add_param( "utm_medium", "Landing Pages" );
+      $url->add_param( "referral", "wp_fb_landing_pages" );
+      $url->add_param( "wordpress_anticache", LpWishpondHelpers::random_string(10) );
 
       if( LpWishpondStorage::is_first_visit() )
       {
@@ -154,16 +155,23 @@
       return $url->url();
     }
 
-    public static function current_page_url() {
-      $page_url = ($_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+    public static function current_page_host() {
+      $protocol = ($_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+      return $protocol . substr($_SERVER["SERVER_NAME"], 0, strpos($_SERVER["SERVER_NAME"], ","));
+    }
 
+    public static function current_page_url() {
       if ($_SERVER["SERVER_PORT"] != "80") {
-        $page_url .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+        $page_url .= $server_name.":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
       } else {
-        $page_url .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+        $page_url .= self::current_page_host().$_SERVER["REQUEST_URI"];
       }
 
       return $page_url;
+    }
+
+    public static function sample_host_at() {
+      return self::current_page_host()."/new-page";
     }
 
     /**
