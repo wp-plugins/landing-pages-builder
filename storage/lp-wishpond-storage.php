@@ -70,5 +70,16 @@
       return !get_option( DISABLE_GUEST_SIGNUP_OPTION );
     }
     // ---------------------------------------------------------------
+
+    // ---------------------------------------------------------------
+    // Settings
+    // ---------------------------------------------------------------
+    public static function permalink_structure_valid() {
+      if (strpos(LpWishpondStorage::get("permalink_structure"), "postname") !== FALSE) {
+        return true;
+      }
+      return false;
+    }
+    // ---------------------------------------------------------------
   }
 ?>

@@ -75,19 +75,26 @@ class LpMenuBuilder
     $wishpond_action  = preg_replace('/[^a-zA-Z\-_]+/i', "", $_GET["wishpond-action"]);
     $wishpond_id      = preg_replace('/[^0-9]+/i', "", $_GET["wishpond-id"]);
 
-    switch($wishpond_action)
-    {
-      case "make-homepage": {
-        update_option( 'page_on_front', LpWishpondLandingPage::get_by_wishpond_id($wishpond_id)->wordpress_post_id );
-        update_option( 'show_on_front', 'page' );
-        $notice = "Your Landing Page is now your homepage. <a href='".LpWishpondLandingPage::get_by_wishpond_id($wishpond_id)->url()."' target='_blank'>View Page</a>";
-        break;
+    if($wishpond_action != "") {
+      if(!LpWishpondStorage::permalink_structure_valid()) {
+        $notice = 'Invalid permalink structure. Please go to "Settings"->"Permalinks" and make sure your permalinks use the "postname"<br/> Otherwise, you have to manually paste the wishpond "Embed Code" into your homepage';
       }
-      case "reset-homepage": {
-        update_option( 'page_on_front', '' );
-        update_option( 'show_on_front', '' );
-        $notice = "Home page reset successfully";
-        break;
+      else {
+        switch($wishpond_action)
+        {
+          case "make-homepage": {
+            update_option( 'page_on_front', LpWishpondLandingPage::get_by_wishpond_id($wishpond_id)->wordpress_post_id );
+            update_option( 'show_on_front', 'page' );
+            $notice = "Your Landing Page is now your homepage. <a href='".LpWishpondLandingPage::get_by_wishpond_id($wishpond_id)->url()."' target='_blank'>View Page</a>";
+            break;
+          }
+          case "reset-homepage": {
+            update_option( 'page_on_front', '' );
+            update_option( 'show_on_front', '' );
+            $notice = "Home page reset successfully";
+            break;
+          }
+        }
       }
     }
     include_once LANDING_PAGES_DIR . "views/landingpages.php";
@@ -220,6 +227,10 @@ class LpMenuBuilder
             if($path == "") {
               $return_message = LpWishpondHelpers::json_message('error', 'The path/slug was empty. Please use a url like "http://domain.com/path" to host your page. To set a landing page as your homepage, just go into "Landing Pages", hover over your landing page and click on "Make Homepage"');
             }
+            else if(!LpWishpondStorage::permalink_structure_valid()) {
+              $return_message = LpWishpondHelpers::json_message('error',
+                'Invalid permalink structure. If you want to automatically publish to wordpress, please go in "Settings"->"Permalinks" and make sure your permalinks use the "postname"<br/> Otherwise, you have to manually create a wordpress page at this path and paste the wishpond "Embed Code"');
+            }
             else {
               if( LpWishpondLandingPage::page_slug_used($path, $existing_post->wordpress_post_id) ) {
                 $return_message = LpWishpondHelpers::json_message('error', 'Oops! The specified path \''.$path.'\' appears to be in use');
@@ -248,6 +259,10 @@ class LpMenuBuilder
             }
             else if( LpWishpondLandingPage::page_slug_used($path, $existing_post->wordpress_post_id) ) {
               $return_message = LpWishpondHelpers::json_message('error', 'Duplicate path/slug \'' . $path . '\'. Please try a different path ?');
+            }
+            else if(!LpWishpondStorage::permalink_structure_valid()) {
+              $return_message = LpWishpondHelpers::json_message('error',
+                'Invalid permalink structure. To Automatically publish to wordpress, you need to go in "Settings"->"Permalinks" and make sure your permalinks use the "postname"<br/> Otherwise, just use the wishpond Embed code found under "Add to Website"');
             }
             else
             {

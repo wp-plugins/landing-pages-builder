@@ -39,6 +39,10 @@
   {
     define( 'LANDING_PAGES_SLUG' , 'wishpond-landing-pages' );
   }
+  if ( ! defined( 'WISHPOND_LANDING_PAGES_BUILDER_VERSION' ) )
+  {
+    define( 'WISHPOND_LANDING_PAGES_BUILDER_VERSION' , '1.4.3' );
+  }
 
   $plugin_constants = array(
     // Wishpond Globals

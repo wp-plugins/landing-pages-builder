@@ -53,6 +53,20 @@ if(JS.is_guest_signup_enabled)
   jQuery("#wishpond_guest_status_iframe").attr("src", wishpond_iframe_src);
 }
 
+// Messages to be executed directly in javascript
+var client_side_messages = {
+  allowed: {
+    "scroll": [// accepted options
+      "x",
+      "y"
+    ]
+  },
+
+  scroll: function(options) {
+    window.scrollTo(options["x"], options["y"]);
+  }
+}
+
 var wishpond_api = {
 
   init_listener: function() {
@@ -63,15 +77,22 @@ var wishpond_api = {
         return false;
       }
 
-      // Handle disabling the guest user
+      // Handle disabling the guest user, which uses another system
       if( response.data.guest_user === false
           && response.data.logged_in === true ) {
         disable_guest_signup();
         return;
       }
 
-      // handle other messages from the iFrame
-      make_wordpress_request(response.data);
+      if( response.data.client_side === true && 
+          typeof client_side_messages.allowed[response.data.endpoint] != "undefined" ) {
+        // If message is to be executed on the client side
+        client_side_messages[response.data.endpoint](response.data.options);
+      }
+      else {
+        // handle other messages from the iFrame, on wordpress server
+        make_wordpress_request(response.data);
+      }
     }, protocol_manager.to_current_protocol( JS.WISHPOND_SITE_URL ));
   },
   message: {
@@ -83,7 +104,7 @@ var wishpond_api = {
       jQuery("#wishpond_landing_pages_iframe").before("<div id=" + this.id + " class='" + message_type + "'><p>" + message_text + "</p></div>");
       this.timeout_handler = setTimeout(function(){
         jQuery("#" + wishpond_api.message.id).remove();
-      }, 8000);
+      }, 15000);
     },
     clear: function() {
       clearTimeout(this.timeout_handler);
