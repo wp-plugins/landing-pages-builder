@@ -297,7 +297,7 @@ class LpMenuBuilder
                   $return_message = LpWishpondHelpers::json_message('updated', 'Landing Page Successfully published! &nbsp;&nbsp;&nbsp; <a class="btn" target="_blank" href="'.$new_landing_page->url().'">View Page</a>'); 
                 }
                 else if (get_page_by_title($page_title) != NULL) {
-                  $return_message = LpWishpondHelpers::json_message('error','Duplicate title! Please change the topmost heading of your landing page to change the automatically generated title of the page');
+                  $return_message = LpWishpondHelpers::json_message('error','Duplicate title! Wordpress needs page titles to be unique, so please change the Landing Page title, and publish the page again');
                 }
                 else
                 {
