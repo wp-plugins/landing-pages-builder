@@ -156,8 +156,7 @@
     }
 
     public static function current_page_host() {
-      $protocol = ($_SERVER["HTTPS"] == "on") ? "https://" : "http://";
-      return $protocol . substr($_SERVER["SERVER_NAME"], 0, strpos($_SERVER["SERVER_NAME"], ","));
+      return site_url('', $_SERVER["HTTPS"]);
     }
 
     public static function current_page_url() {
