@@ -214,6 +214,7 @@ class LpMenuBuilder
         $return_message = "";
         $path_start   = strrpos($data["options"]["wordpress_path"], "/");
         $path         = substr($data["options"]["wordpress_path"], $path_start);
+
         switch($data['endpoint']) {
           case "disable_guest_signup": {
             LpWishpondStorage::disable_guest_signup();
@@ -246,8 +247,12 @@ class LpMenuBuilder
           case "publish_campaign": {
             $wishpond_marketing_id = preg_replace('/[^0-9]+/i', "", $data["options"]["marketing_campaign_id"]);
             $wishpond_id      = preg_replace('/[^0-9]+/i', "", $data["options"]["social_campaign_id"]);
-            $page_title       = preg_replace('/[^a-zA-Z\-\_0-9\s\(\)\[\]\{\}\"\']+/i', "", $data["options"]["social_campaign_title"]);
-            $page_description = preg_replace('/[^a-zA-Z\-\_0-9\s\(\)\[\]\{\}\"\']+/i', "", $data["options"]["social_campaign_description"]);
+
+            $page_title       = html_entity_decode($data["options"]["social_campaign_title"], ENT_QUOTES);
+            $page_title       = preg_replace('/[^a-zA-Z\-\_0-9\s\(\)\[\]\{\}\"\'\"]+/i', "", $page_title);
+
+            $page_description = $data["options"]["social_campaign_description"];
+            $page_description = preg_replace('/[^a-zA-Z\-\_0-9\s\(\)\[\]\{\}\"\'\"]+/i', "", $page_description);
             $page_image_url   = $data["options"]["social_campaign_image_url"];
             $facebook_app_id  = $data["options"]["facebook_app_id"];
 
@@ -358,6 +363,7 @@ class LpMenuBuilder
           'ajaxurl'           => admin_url( 'admin-ajax.php' ),
           'global_nonce' => wp_create_nonce( 'wishpond-api-nonce' ),
           'WISHPOND_SITE_URL' => WISHPOND_SITE_URL,
+          'WISHPOND_SECURE_SITE_URL' => WISHPOND_SECURE_SITE_URL,
           'is_guest_signup_enabled' => LpWishpondStorage::is_guest_signup_enabled()
         )
     );

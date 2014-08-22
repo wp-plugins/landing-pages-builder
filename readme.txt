@@ -5,7 +5,7 @@ Tags: easy, easily, create, creator, landing pages creator, Landing Page Creator
 Donate Link: N/A
 Requires at least: 3.0.0
 Tested up to: 3.9.1
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,11 @@ Create and monitor Landing Pages on Wordpress. Get new leads, improve conversion
 
 **Free Trial & Pricing**
 A 14-day free trial is available, after which pricing starts at $45/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
+
+**Also Includes:**
+Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website and blog, using flexible, mobile-responsive templates.
+
+Online Forms: A tool that makes it easy to build, publish and a/b test online forms on your website and blog, using flexible, mobile-responsive templates.
 
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
