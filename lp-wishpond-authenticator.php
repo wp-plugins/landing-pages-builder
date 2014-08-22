@@ -134,11 +134,12 @@
 
       $redirect_to = new LpWishpondUrl( $redirect_to_string );
 
-      $redirect_to->add_param( "utm_campaign", "Wordpress");
-      $redirect_to->add_param( "utm_source", "wordpress.com");
-      $redirect_to->add_param( "utm_medium", "Landing Pages Builder");
-      $redirect_to->add_param( "wordpress_api_parent_url", self::current_page_url() );
+      $redirect_to->add_param( "utm_campaign", "Wordpress" );
+      $redirect_to->add_param( "utm_source", "wordpress.com" );
+      $redirect_to->add_param( "utm_medium", "Landing Pages Builder" );
+      $redirect_to->add_param( "wordpress_plugin_parent_url", self::current_page_url() );
       $redirect_to->add_param( "wordpress_plugin_host", self::current_page_host() );
+      $redirect_to->add_param( "wordpress_plugin_version", WISHPOND_LANDING_PAGES_BUILDER_VERSION );
 
       $url->add_param( "redirect_to", $redirect_to->url() );
       $url->add_param( "utm_campaign", "Wordpress" );
@@ -152,12 +153,12 @@
         $url->add_param( "first_visit", "true" );
         LpWishpondStorage::disable_first_visit();
       }
+
       return $url->url();
     }
 
     public static function current_page_host() {
-      $protocol = ($_SERVER["HTTPS"] == "on") ? "https://" : "http://";
-      return $protocol . substr($_SERVER["SERVER_NAME"], 0, strpos($_SERVER["SERVER_NAME"], ","));
+      return site_url('', $_SERVER["HTTPS"]);
     }
 
     public static function current_page_url() {
