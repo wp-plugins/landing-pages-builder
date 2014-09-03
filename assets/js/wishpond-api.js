@@ -38,7 +38,11 @@ function make_wordpress_request(options) {
     return;
   }
 
-  wishpond_api.message.display("updated", "Processing request ...");
+  // Don't display status for disable_guest_signup requests
+  if(options.endpoint != "disable_guest_signup") {
+    wishpond_api.message.display("updated", "Processing request ...");
+  }
+
   jQuery.ajax({
     type: "POST",
     url: JS.ajaxurl,
