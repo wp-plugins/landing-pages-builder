@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 > Create amazing Landing Pages, Pop-ups and Forms from your wordpress in seconds! Use one of our many responsive templates, run A/B tests, promote them with ads and much more.
 
-> This plugin works great with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate leads and get new customers.
+> This plugin works great with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate leads.
 
 Create and monitor Landing Pages on Wordpress. Get new leads, improve conversion rates, and manage all your landing pages in one place. Run self-optimizing ads to generate new leads fast.
 
