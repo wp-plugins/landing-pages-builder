@@ -214,6 +214,7 @@ class LpMenuBuilder
         $return_message = "";
         $path_start   = strrpos($data["options"]["wordpress_path"], "/");
         $path         = substr($data["options"]["wordpress_path"], $path_start);
+        $url          = $data["options"]["wordpress_url"];
 
         switch($data['endpoint']) {
           case "disable_guest_signup": {
@@ -227,6 +228,9 @@ class LpMenuBuilder
             // hosting as home page ?
             if($path == "") {
               $return_message = LpWishpondHelpers::json_message('error', 'The path/slug was empty. Please use a url like "http://domain.com/path" to host your page. To set a landing page as your homepage, just go into "Landing Pages", hover over your landing page and click on "Make Homepage"');
+            }
+            else if(filter_var($url, FILTER_VALIDATE_URL) === false) {
+              $return_message = LpWishpondHelpers::json_message('error', 'URL Invalid; please ensure no invalid characters or spaces were used in the URL. Also make sure http:// or https:// are included in the URL.');
             }
             else if(!LpWishpondStorage::permalink_structure_valid()) {
               $return_message = LpWishpondHelpers::json_message('error',
