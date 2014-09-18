@@ -28,7 +28,7 @@
     }
 
     // ---------------------------------------------------------------
-    // First visit & Toke based auth
+    // First visit & Token based auth
     // ---------------------------------------------------------------
     public static function set_first_visit()
     {

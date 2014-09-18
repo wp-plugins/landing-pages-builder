@@ -25,20 +25,36 @@ var wishpond_api_endpoints = {
   disable_guest_signup: "disable_guest_signup"
 }
 
+/**
+* Wishpond can make 4 different types of requests to wordpress:
+ 1) endpoint: publish_campaign
+ 2) endpoint: check_path_availability
+ 3) endpoint: delete_campaign
+ 4) client_message: scroll
+*/
 function make_wordpress_request(options) {
-  wishpond_api.message.display("updated", "Processing request ...");
+  // Ignore all messages we don't recognize
+  if(typeof options.endpoint == "undefined" && typeof options.client_message == "undefined") {
+    return;
+  }
+
+  // Don't display status for disable_guest_signup requests
+  if(options.endpoint != "disable_guest_signup") {
+    wishpond_api.message.display("updated", "Processing request ...");
+  }
+
   jQuery.ajax({
     type: "POST",
     url: JS.ajaxurl,
     dataType: "json",
     data: {
       data: options,
+      // Needed by wordpress
       action: "wishpond_api",
       nonce : JS.global_nonce
     }
   }).done(function(response) {
     // Display the server message ?
-    // console.log(response);
     if(typeof response != "undefined" && response != null && typeof response.message != "undefined") {
       wishpond_api.message.display(response.message.type, response.message.text);
     }
@@ -70,12 +86,11 @@ var client_side_messages = {
 var wishpond_api = {
 
   init_listener: function() {
-    XD.receiveMessage(function(response){
-
+    message_handler = function(response){
       if( typeof response.data == 'undefined' )
       {
         return false;
-      }
+      } 
 
       // Handle disabling the guest user, which uses another system
       if( response.data.guest_user === false
@@ -84,16 +99,18 @@ var wishpond_api = {
         return;
       }
 
-      if( response.data.client_side === true && 
-          typeof client_side_messages.allowed[response.data.endpoint] != "undefined" ) {
+      if( typeof(response.data.client_message) !== true && 
+          typeof(client_side_messages.allowed[response.data.client_message]) != "undefined" ) {
         // If message is to be executed on the client side
-        client_side_messages[response.data.endpoint](response.data.options);
+        client_side_messages[response.data.client_message](response.data.options);
       }
       else {
         // handle other messages from the iFrame, on wordpress server
         make_wordpress_request(response.data);
       }
-    }, protocol_manager.to_current_protocol( JS.WISHPOND_SITE_URL ));
+    };
+    XD.receiveMessage(message_handler, JS.WISHPOND_SITE_URL);
+    XD.receiveMessage(message_handler, JS.WISHPOND_SECURE_SITE_URL);
   },
   message: {
     id: "wishpond_message",
