@@ -29,7 +29,7 @@ Online Forms: A tool that makes it easy to build, publish and a/b test online fo
 
 **Choose the best Template for you, to have a landing page running in minutes!**
 
-Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using the extensive analytics provided.
+Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using extensive analytics tools.
 
 **Create your Landing Page in Minutes**
 
