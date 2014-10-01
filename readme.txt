@@ -23,7 +23,7 @@ A 14-day free trial is available on all anual plans, after which pricing starts 
 **Also Includes:**
 Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website and blog, using flexible, mobile-responsive templates.
 
-Online Forms: A tool that makes it easy to build, publish and a/b test online forms on your website and blog, using flexible, mobile-responsive templates.
+Online Forms: A tool that makes it easy to build, publish and a/b test forms on your website and blog, using flexible, mobile-responsive templates.
 
 [Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
 
