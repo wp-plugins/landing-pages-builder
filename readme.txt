@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 > This plugin can be used with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate leads.
 
-Create and monitor Landing Pages on Wordpress. Get new leads, improve conversion rates, and manage all your landing pages in one place. Run self-optimizing ads to generate new leads. Run marketing campaigns to nurture your leads.
+Create Landing Pages on Wordpress, run A/B tests and more. Get new leads, improve conversion rates, and manage all your landing pages in one place. Run self-optimizing ads to generate new leads. Run marketing campaigns to nurture your leads.
 
 **Free Trial & Pricing**
 A 14-day free trial is available on all anual plans, after which pricing starts at $45/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing").
