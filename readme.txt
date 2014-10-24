@@ -25,7 +25,7 @@ Website Popups: A tool that makes it easy to create, publish and a/b test pop-up
 
 Online Forms: A tool that makes it easy to build, publish and a/b test forms on your website, blog or facebook page, using flexible, mobile-responsive templates.
 
-[Check out what our customers said about us](http://corp.wishpond.com/customer-case-studies/ "Customer Reviews")
+[Check out what our customers said about us](http://corp.wishpond.com/reviews/ "Customer Reviews")
 
 **Choose the best Template for you, to have a landing page running in minutes!**
 
