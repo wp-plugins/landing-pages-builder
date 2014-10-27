@@ -80,7 +80,7 @@ Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimi
 
 = Do I need to have a Wishpond account set up already? =
 
-No, you can create your free account inside the plugin, or you can simply use a guest account
+No, you can create your free account through the plugin, or you can simply use the provided guest account
 
 = Is the 14-day free trial shared with the other Wishpond plugins? =
 
