@@ -41,7 +41,7 @@
   }
   if ( ! defined( 'WISHPOND_LANDING_PAGES_BUILDER_VERSION' ) )
   {
-    define( 'WISHPOND_LANDING_PAGES_BUILDER_VERSION' , '1.4.3' );
+    define( 'WISHPOND_LANDING_PAGES_BUILDER_VERSION' , '1.4.4' );
   }
 
   $plugin_constants = array(
