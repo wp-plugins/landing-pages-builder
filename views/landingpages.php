@@ -53,7 +53,13 @@ else
           <td>
             <a href="<?php echo get_permalink($post->ID); ?>" title="View Landing Page" target="_blank">
               <b>
-                <?php echo $post->post_title; ?>
+                <?php
+                  $title = $post->post_title;
+                  if($title == "") {
+                    $title = "(no title)";
+                  }
+                  echo $title;
+                ?>
               </b>
             </a><br/>
             <div class="row-actions">
