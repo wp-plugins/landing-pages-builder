@@ -5,7 +5,7 @@ class LpMenuBuilder
   public function __construct()
   {
     add_action( 'admin_menu', array( $this, 'create_menu_pages' ) );
-    add_action( 'wp_ajax_wishpond_api', array( $this, 'wishpond_api' ) );
+    add_action( 'wp_ajax_'.LANDING_PAGES_SLUG.'_wishpond_api', array( $this, 'wishpond_api' ) );
     add_action( 'init', array( $this, 'add_cors_headers' ) );
   }
 
@@ -366,6 +366,7 @@ class LpMenuBuilder
           // use wp-admin/admin-ajax.php to process the request
           'ajaxurl'           => admin_url( 'admin-ajax.php' ),
           'global_nonce' => wp_create_nonce( 'wishpond-api-nonce' ),
+          'plugin_slug' => LANDING_PAGES_SLUG,
           'WISHPOND_SITE_URL' => WISHPOND_SITE_URL,
           'WISHPOND_SECURE_SITE_URL' => WISHPOND_SECURE_SITE_URL,
           'is_guest_signup_enabled' => LpWishpondStorage::is_guest_signup_enabled()

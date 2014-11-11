@@ -50,7 +50,7 @@ function make_wordpress_request(options) {
     data: {
       data: options,
       // Needed by wordpress
-      action: "wishpond_api",
+      action: JS.plugin_slug + "_wishpond_api",
       nonce : JS.global_nonce
     }
   }).done(function(response) {
