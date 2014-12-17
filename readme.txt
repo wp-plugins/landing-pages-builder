@@ -21,9 +21,9 @@ Create Landing Pages, run A/B tests and more. Get new leads, improve conversion 
 A 14-day free trial is available on all annual plans, after which pricing starts at $45/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing Plans").
 
 **Also Includes:**
-Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website, blog, or facebook page, using flexible, mobile-responsive templates.
+Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website, blog, or facebook page using flexible, mobile-responsive templates.
 
-Online Forms: A tool that makes it easy to build, publish and a/b test forms on your website, blog or facebook page, using flexible, mobile-responsive templates.
+Online Forms: A tool that makes it easy to build, publish and a/b test forms on your website, blog or facebook page using flexible, mobile-responsive templates.
 
 [Check out what our customers said about us](http://corp.wishpond.com/reviews/ "Customer Reviews")
 
@@ -108,7 +108,7 @@ Wishpond campaigns are extremely easy and fast to set up. If you ever need assis
 All you need is to make sure that the Permalinks are set to "Post Name" or "Custom Structure". You would verify this in Settings->Permalinks.
 
 = Where are Landing Pages stored ? =
-Your Landing Pages are stored on Wishpond, so that you can add email automation, ad campaigns and other features to your Landing Pages.
+Your Landing Pages are stored on Wishpond, so that you can add email automation, ad campaigns and other features to your Landing Pages. This also means that if you ever uninstall this plugin, your wishpond account still has your work.
 
 = How do I delete a Landing Page ? =
 After you create a Landing Page, you can view it under "Landing Pages". Click the "Manage" link under the landing page to get to the management screen for that specific landing page. To delete it, simply scroll to the bottom of the management screen to delete that landing page.
