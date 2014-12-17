@@ -26,15 +26,14 @@
       Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
   */
 
-  //debug
   if ( ! defined( 'WISHPOND_SITE_URL' ) )
   {
-    define( 'WISHPOND_SITE_URL' , 'http://www.lvh.me' );
+    define( 'WISHPOND_SITE_URL' , 'http://www.wishpond.com' );
   }
 
   if ( ! defined( 'WISHPOND_SECURE_SITE_URL' ) )
   {
-    define( 'WISHPOND_SECURE_SITE_URL' , 'https://www.lvh.me' );
+    define( 'WISHPOND_SECURE_SITE_URL' , 'https://www.wishpond.com' );
   }
   if ( ! defined( 'LANDING_PAGES_SLUG' ) )
   {
