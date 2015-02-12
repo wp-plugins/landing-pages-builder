@@ -23,7 +23,7 @@ A 14-day free trial is available on all annual plans, after which pricing starts
 **Also Includes:**
 Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website, blog, or facebook page using flexible, mobile-responsive templates.
 
-Online Forms: A tool that makes it easy to build, publish and a/b test forms on your website, blog or facebook page using flexible, mobile-responsive templates.
+Online Forms: A tool that makes it easy to build, publish and a/b test Forms on your website, blog or facebook page using flexible, mobile-responsive templates.
 
 [Check out what our customers said about us](http://corp.wishpond.com/reviews/ "Customer Reviews")
 
@@ -82,6 +82,17 @@ Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimi
 
 No, you can create your free account through the plugin, or you can simply use the provided guest account
 
+= Can I use the Landing Pages Builder for free? =
+
+You can try Social Campaigns completely free for the first 14 days.
+You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
+
+= How much does it cost to run a landing page? =
+
+* You can run unlimited campaigns for FREE for the first 14 days
+* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
+* You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
+
 = Is the 14-day free trial shared with the other Wishpond plugins? =
 
 When you sign up for a free trial with the [Landing Pages Builder](http://wordpress.org/plugins/landing-pages-builder/ "Landing Pages Builder") plugin or with our [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugin, the subscription and trial are shared for the same Wishpond accounts.
@@ -89,16 +100,6 @@ When you sign up for a free trial with the [Landing Pages Builder](http://wordpr
 When the trial expires you will begin a paid subscription period. If you do not wish to begin a paid subscription period, please cancel your pricing plan within the 14-days of free trial. When you cancel a plan, you can still use our [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button" plugin as before.
 
 The [Facebook Ads](http://wordpress.org/plugins/facebook-ads/ "Create Facebook Ads for your wordpress with one button") plugin doesn't require a subscription and therefore doesn't have a trial.
-
-= Can I use the Landing Pages Builder for free? =
-
-Yes, you can try Social Campaigns completely free for the first 14 days.
-
-= How much does it cost to run a landing page? =
-
-* You can run unlimited campaigns for FREE for the first 14 days
-* Running landing pages is extremely cost effective. This plugin lets you use features that aren't available on any other plugin.
-* You can learn more about our pricing [here](http://corp.wishpond.com/pricing-plans/ "Pricing")
 
 = What kind of support do I get ? =
 
@@ -127,7 +128,7 @@ If you want to try out the plugin, simply go in Landing Pages->Settings and clic
 
 = I have another question, what do I do? =
 
-Contact us anytime! If you ever need a question, you can always email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
+Contact us anytime! If you ever need a question, you can email us at [support@wishpond.com](mailto://support@wishpond.com "Wishpond Support") or just use the live chat available to you directly through this plugin.
 
 == Screenshots ==
 
