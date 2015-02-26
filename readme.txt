@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-> Create amazing Landing Pages, Pop-ups and Forms from your wordpress in seconds! Use one of our many responsive templates, run A/B tests, promote them with ads and so much more!
+> Create amazing Landing Pages, Pop-ups and Forms from your wordpress in seconds! Use one of our many responsive templates, run A/B tests, promote them with ads and much more!
 
 > This plugin can be used with the [Ads Campaigns](http://wordpress.org/plugins/ads-campaigns/ "Create Google Adwords and Facebook Ads campaigns with one click") and the [Social Contests](http://wordpress.org/plugins/wishpond-social-campaigns/ "Run social campaigns on wordpress") plugins to generate leads.
 
