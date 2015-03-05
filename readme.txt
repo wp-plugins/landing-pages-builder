@@ -21,15 +21,15 @@ Create Landing Pages, run A/B tests and more. Get new leads, improve conversion 
 A 14-day free trial is available on all annual plans, after which pricing starts at just $45/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing Plans").
 
 **Also Includes:**
-Website Popups: A tool that makes it easy to create, publish and a/b test pop-ups on your website, blog, or facebook page using flexible, mobile-responsive templates.
+Website Popups: A tool that makes it easy to create, publish and A/B test pop-ups on your website, blog, or facebook page using flexible, mobile-responsive templates.
 
-Online Forms: A tool that makes it easy to build, publish and a/b test Forms on your website, blog or facebook page using flexible, mobile-responsive templates.
+Online Forms: A tool that makes it easy to build, publish and A/B test Forms on your website, blog or facebook page using flexible, mobile-responsive templates.
 
 [Check out what our customers said about us](http://corp.wishpond.com/reviews/ "Customer Reviews")
 
 **Choose the best Template for you, to have a landing page running in minutes!**
 
-Host your landing pages on wordpress, facebook, twtiter or anywhere else. Optimize your landing pages using extensive analytics tools.
+Host your landing pages on wordpress, Facebook, Twitter or anywhere else. Optimize your landing pages using extensive analytics tools.
 
 **Create your Landing Page in Minutes**
 
