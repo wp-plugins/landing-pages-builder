@@ -18,9 +18,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create Landing Pages, run A/B tests and more. Get new leads, improve conversion rates, and manage all your landing pages in one place. Run self-optimizing ads to generate new leads. Run marketing campaigns to generate and nurture leads.
 
 **Free Trial & Pricing**
+
 A 14-day free trial is available on all annual plans, after which pricing starts at just $45/month. You can learn more about our pricing plans [here](http://corp.wishpond.com/pricing-plans/ "Pricing Plans").
 
-**Also Includes:**
+**Also Includes...**
+
 Website Popups: A tool that makes it easy to create, publish and A/B test pop-ups on your website, blog, or facebook page using flexible, mobile-responsive templates.
 
 Online Forms: A tool that makes it easy to build, publish and A/B test Forms on your website, blog or facebook page using flexible, mobile-responsive templates.
