@@ -134,7 +134,7 @@ class LpMenuBuilder
   public function display_create_landing_page()
   {
     self::enqueue_scripts();
-    $dashboard_page = new LpWishpondIframe( "/wizard/start?participation_type=landing_page&wizard=wizards%2Flanding_page", self::query_info_from_post_id() );
+    $dashboard_page = new LpWishpondIframe( "/wizard/start?wizard=wizards%2Flanding_page_v2", self::query_info_from_post_id() );
     $dashboard_page->display_iframe();
   }
 
